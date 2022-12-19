@@ -139,22 +139,20 @@
   }
   
   @media screen and (max-width: 450px) {
-    .card-details {
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-areas:
-        "a"
-        "b";
+    .card-details{
+      grid-template-columns: repeat(1,1fr);
+      grid-template-areas: "a" "b";
     }
-    .card {
+    .card{
       grid-area: a;
     }
-    .why-us {
+    .why-us{
       grid-area: b;
     }
-    html {
+    html{
       font-size: 45.5%;
     }
-    .container {
+    .container{
       width: 90%;
-     }
-}
+    }
+  }
